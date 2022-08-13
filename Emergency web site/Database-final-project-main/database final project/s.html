@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+     <!-- Site Metas -->
+    <title>Health Lab - Responsive HTML5 Template</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/s.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+
+
+</head>
+<!-- <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98"> -->
+
+<body>
+
+<form action="{{ url_for('predict')}}" method="post">
+
+  <div class="input-group" style="padding-top:20px">
+
+              <!-- declaration for first field -->
+              <input class="x" type="button" class="form-control
+                input-sm" value="Doctor" />
+
+              <!-- reducong the gap between them to zero -->
+              <span class="input-group-btn"
+              style="width:0px;"></span>
+
+              <!-- declaration for second field -->
+              <input class="y" type="button" class="form-control
+                input-sm" value="patient" />
+
+
+                <input class="z" type="button" class="form-control
+                  input-sm" value="Admin" />
+              </div>
+
+              </form>
+
+
+
+</body>
+</html>
